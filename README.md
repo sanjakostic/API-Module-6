@@ -1,29 +1,5 @@
-# Requesting a Galaxy Far Far Away
+In both WeatherPy and VacationPy projects, pandas was used to handle weather and city data, gathered using the Geoapify API. Matplotlib was used in creating visualizations such as scatter plots to illustrate the relationships between weather variables and latitude in WeatherPy.
 
-In this activity you will create an application that accesses data from the Star Wars API and prints out values from within it.
+For data retrieval, I made requests to the OpenWeatherMap API in WeatherPy and the Geoapify API in VacationPy. These APIs returned weather data and information about hotels near selected cities, respectively. Additionally, I used SciPy's `linregress` function in WeatherPy for linear regression. In VacationPy I used hvPlot for interactive map visualizations.
 
-## Instructions
-
-* Using the starter file provided, collect the following pieces of information from the Star Wars API.
-
-  * The name of the character
-
-  * The number of films they were in
-
-  * The name of their first starship
-
-* Once the data has been collected, print it out to the console.
-
-## Bonus
-
-Collect and print out all of the films a character appeared in.
-
-## Hint
-
-* It would be in your best interest to print out the JSON from the initial request before anything else. This will let you know what keys you should reference.
-
-* The "starship" values are links to another API call. This means that you will need to create a request based on the values of a previous request.
-
----
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+The most challenging thing was getting the parameters for the functions such as the API calls and the visualizations correct. 
